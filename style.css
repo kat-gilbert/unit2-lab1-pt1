@@ -4,6 +4,7 @@ body {
     background-color: #f9fafc;
     font-family: 'Open Sans', sans-serif;
     color: #69696a;
+    margin: 0 0;
 }
 
 h1 {
@@ -11,7 +12,11 @@ h1 {
     font-size: 16px;
     display: inline;
     padding: 3px;
-    margin: 4px;
+    margin: 4px 4px;
+}
+
+header {
+    margin-top: 15px;
 }
 
 h2 {
@@ -57,11 +62,12 @@ ul {
     background-color: #000;
     font-size: 17px;
     font-family: "Open Sans", sans-serif;
-    width: 95%;
+    width: 90%;
+    margin: auto;
     padding: 6px;
     border-radius: 20px;
     text-align: center;
-    margin: 5px, 5px, 5px, 5px;
+    margin: 10px, 10px;
 }
 
 .buttonlink {
@@ -91,11 +97,12 @@ footer {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    margin-left: 0;
 }
 
-.footer-h1 {
-    padding: 6px;
-   
+.footer-h3 {
+    padding: 4px;
+    font-size: 14px;
 }
 
 .footernavlist {
