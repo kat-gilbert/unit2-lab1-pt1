@@ -11,8 +11,8 @@ h1 {
     color: #000;
     font-size: 16px;
     display: inline;
-    padding: 3px;
-    margin: 4px 4px;
+    padding: 4px;
+    margin: 4px 6px;
 }
 
 header {
@@ -23,7 +23,7 @@ h2 {
     color: #000;
     font-size: 30px;
     padding: 3px;
-    margin: 3px;
+    margin-left: 10px;
 }
 
 a {
@@ -53,9 +53,9 @@ ul {
     padding: 3px;
  }
 
- li {
-     padding: 3px;
-     margin: 3px;
+li {
+    padding: 3px;
+    margin: 3px;
  }
 
 .button {
@@ -78,20 +78,21 @@ section {
     font-size: 16px;
  }
 
- .article {
+.article {
     border-left: solid;
     border-left-style: 6px;
     padding: 10px;
+    margin: 12px;
  }
 
- .articletext {
-     margin-left: 15px;
-     padding-bottom: 15px;
+.articletext {
+    margin-left: 15px;
+    padding-bottom: 15px;
  }
 
 footer {
     background-color: rgba(247, 193,162, 0.7);
-    padding: 10px;
+    padding: 2px;
     position: absolute;
     bottom: 0px;
     width: 100%;
@@ -101,16 +102,18 @@ footer {
 }
 
 .footer-h3 {
-    padding: 4px;
+    color: #000;
     font-size: 14px;
+    margin-left: 10px;
 }
 
 .footernavlist {
-    float: right;
+    margin: auto;  
 } 
 
 li.footernav {
-    text-align: right;
-    display: inline;
+    display: inline-block;
     margin-right: 20px;
-}
+    margin-top: 8px;
+  }
+
