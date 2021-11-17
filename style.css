@@ -23,7 +23,7 @@ h2 {
     color: #000;
     font-size: 30px;
     padding: 3px;
-    margin-left: 10px;
+    margin-left: 12px;
 }
 
 a {
@@ -39,6 +39,7 @@ a:active {
 a.buttonlink:active {
     color: #69696a;
 }
+
 a:hover {
     color: #000;
 }
@@ -81,13 +82,12 @@ section {
 .article {
     border-left: solid;
     border-left-style: 6px;
-    padding: 10px;
-    margin: 12px;
+    margin: 24px;
  }
 
 .articletext {
     margin-left: 15px;
-    padding-bottom: 15px;
+    margin-bottom: 15px;
  }
 
 footer {
@@ -114,6 +114,7 @@ footer {
 li.footernav {
     display: inline-block;
     margin-right: 20px;
-    margin-top: 8px;
+    margin-top: 9px;
+    font-size: 14px;
   }
 
